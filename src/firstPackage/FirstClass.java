@@ -1,6 +1,8 @@
 package firstPackage;
 
 public class FirstClass {
+
+    //attributes and methods
     private int x = 5;
     private String attr;
     private boolean isAsleep = false;
