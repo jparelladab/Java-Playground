@@ -5,6 +5,8 @@ public class FirstClass {
     private String attr;
     private boolean isAsleep = false;
 
+    //This is the main method
+
     public static void main(String[] args) {
         System.out.println("Hello World");
         FirstClass myObj = new FirstClass();
