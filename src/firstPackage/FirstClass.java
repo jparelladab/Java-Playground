@@ -15,6 +15,8 @@ public class FirstClass {
         myObj.attr = "NICE";
         System.out.println(myObj.x);
         System.out.println(myObj.isAsleep);
+        Streams myStream = new Streams();
+        myStream.reduce(3);
     }
 
 
