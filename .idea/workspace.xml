@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/IOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/InstanceCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/OS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Windows.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstPackage/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstPackage/FirstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Android.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
