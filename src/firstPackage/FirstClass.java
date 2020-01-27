@@ -1,4 +1,5 @@
 package firstPackage;
+import java.util.Arrays;
 
 public class FirstClass {
 
@@ -17,6 +18,12 @@ public class FirstClass {
         System.out.println(myObj.isAsleep);
         Streams myStream = new Streams();
         myStream.reduce(3);
+        System.out.println();
+        int[] myArray = {1,2,3,4};
+        int[] otherArray = new int[4];
+        int[] newArray = myArray;
+        newArray[2] = 84;
+        System.out.println(Arrays.toString(myArray));
     }
 
 
