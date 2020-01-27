@@ -1,7 +1,7 @@
 package FactoryDesignPattern;
 
-public class IOS {
-    void specs() {
+public class IOS implements OS{
+    public void specs() {
         System.out.println("I'm an iOS");
     }
 }
