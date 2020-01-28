@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/iPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Android.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/IOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/IOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/InstanceCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/FactoryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/FactoryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/FactoryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/OS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/Windows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Windows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,22 +141,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580166699665">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580212397721">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580166699665" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580166699664">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580212397721" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580212397720">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580166699664" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580166699663">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580212397720" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580212397720">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580166699663" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580166699664">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580212397720" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580212397720">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580166699664" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580212397720" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1578249180890">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

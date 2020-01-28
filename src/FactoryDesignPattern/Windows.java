@@ -1,6 +1,7 @@
 package FactoryDesignPattern;
 
 public class Windows implements OS{
+    //See num variable definition in OS interface and how it returns 12 instead of 10. Because interface attrib are final
     private int num = 10;
     public int getNum() {return num;}
     public void setNum(int numb) {this.num = numb;}
