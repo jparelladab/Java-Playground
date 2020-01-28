@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/iPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Flys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/myMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/FactoryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/FactoryMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/OS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryDesignPattern/Windows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Windows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Application.FactoryMain">
+  <component name="RunManager" selected="Application.myMain">
     <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactoryDesignPattern.FactoryMain" />
       <module name="My First Java Project" />
@@ -92,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdFib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="firstPackage.ProdFib" />
+    <configuration name="myMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyDesignPattern.myMain" />
       <module name="My First Java Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="firstPackage.*" />
+          <option name="PATTERN" value="StrategyDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.myMain" />
         <item itemvalue="Application.FactoryMain" />
         <item itemvalue="Application.FirstClass" />
         <item itemvalue="Application.Language" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="Application.ProdFib" />
       </list>
     </recent_temporary>
   </component>
@@ -141,22 +140,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580212397721">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580222747215">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580212397721" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580212397720">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580222747215" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580222747214">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580212397720" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580212397720">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580222747214" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580222747209">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580212397720" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580212397720">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580222747209" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580222747215">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580212397720" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580222747215" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1578249180890">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
