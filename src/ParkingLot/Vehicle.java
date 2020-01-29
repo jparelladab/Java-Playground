@@ -1,4 +1,6 @@
 package ParkingLot;
 
-public interface Vehicle {
+public abstract class Vehicle {
+    enum Size {MOTORBIKE, CAR, BUS};
+    void park(){}
 }
