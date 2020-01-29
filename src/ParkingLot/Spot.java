@@ -1,8 +1,8 @@
 package ParkingLot;
 
-public class Spot {
-    enum Sizes  { SMALL, LARGE };
-    enum State {FREE, BUSY };
-    private Sizes size;
-    private State state;
+public abstract class Spot {
+    Certificate park();
+    boolean unpark();
+    getAmount();
+    pay();
 }

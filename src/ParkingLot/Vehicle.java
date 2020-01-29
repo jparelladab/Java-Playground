@@ -1,6 +1,10 @@
 package ParkingLot;
 
 public abstract class Vehicle {
-    enum Size {MOTORBIKE, CAR, BUS};
-    void park(){}
+    private String licensePlate;
+    public String getLicensePlate() {
+        return this.licensePlate;
+    };
+    abstract void move();
+    abstract void park();
 }

@@ -1,5 +1,6 @@
 package ParkingLot;
 
 public class Motorbike extends Vehicle {
-    public void park(){}
+    void move(){System.out.println("I'm moving");};
+    void park(){};
 }
