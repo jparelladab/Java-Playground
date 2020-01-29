@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Spot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Bird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StrategyDesignPattern/myMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/myMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -138,22 +140,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580224975059">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580225376070">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580224975059" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580224975058">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580225376070" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580225376068">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580224975058" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580224975058">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580225376068" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580225376068">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580224975058" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580224975058">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580225376068" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580225376069">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580224975058" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580225376069" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1578249180890">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

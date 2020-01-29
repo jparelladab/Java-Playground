@@ -8,6 +8,8 @@ public class myMain {
         System.out.println(myDog.getSound());
         System.out.println(myDog.getFlyType());
         System.out.println();
+        Bird sparrow = new Bird("Sparrow", "PiuPiu", new ItFlies(), "red");
+        System.out.println(sparrow.getFlyType());
 
     }
 }
