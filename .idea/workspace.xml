@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/Certificate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Motorbike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Parking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Spot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Spot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/BigSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/BigSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/SmallSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/SmallSpot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,4 +1,5 @@
 package ParkingLot;
 
-public class BigSpot {
+public class BigSpot extends Spot{
+    float hourlyRate;
 }

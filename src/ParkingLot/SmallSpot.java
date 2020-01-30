@@ -1,4 +1,5 @@
 package ParkingLot;
 
-public class SmallSpot {
+public class SmallSpot extends Spot {
+    int hourlyRate;
 }
