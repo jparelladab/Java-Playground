@@ -18,7 +18,6 @@ public class Floor {
         return spots;
     }
 
-
     public Floor(int num, int smaSpots, int bgSpots){
         this.number = num;
         this.smallSpots = new Spot[smaSpots];

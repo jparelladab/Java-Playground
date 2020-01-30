@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/CertificateNO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/CertificateYES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/SpotBig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/SpotSmall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParkingLot/VehicleBus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/BigSpot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Bus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/VehicleCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/CertificateNO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/CertificateNO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/CertificateYES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/CertificateYES.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Floor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/VehicleMotorbike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Parking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/SmallSpot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Spot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Spot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/VehicleBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/VehicleBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLot/VehicleMotorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/VehicleMotorbike.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,22 +152,22 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="370" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.797@0.23.1440.797" timestamp="1580408949198" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580407699068">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580413927911">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580407699068" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580407699067">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580413927911" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580413927909">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580407699067" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580407699065">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580413927909" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580413927908">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580407699065" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580407699067">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580413927908" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580413927910">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580407699067" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580413927910" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1578249180890">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

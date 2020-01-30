@@ -52,13 +52,13 @@ public class Parking {
 
     //If there are free spots allocates one according to vehicle size starting by the ground floor and going up.
     //Small spots are the first ones at every floor
-   public Certificate park(Vehicle vehicle) {
+   public boolean park(Vehicle vehicle) {
        System.out.println("Welcome!");
        //update busy state
        this.checkParkingBusy();
        if (this.busy) {
            System.out.println("Parking full. No empty spots. Please wait");
-       } else if (vehicle.getClass().getSimpleName().equals("Motorbike")) {
+       } else if (vehicle.getClass().getSimpleName().equals("VehicleMotorbike")) {
            if (this.getTotalFreeSmallSpots() + this.getTotalFreeBigSpots() > 0) {
                System.out.println("There are free spots for your Motorbike");
                //look first for small spots, from floor 0 upwards
@@ -68,7 +68,8 @@ public class Parking {
                            if (sp.isFree()) {
                                System.out.printf("Please park your Motorbike at floor %d, spot %d \n", k.getNumber(), sp.getNumber());
                                sp.occupySpot();
-                               return new CertificateYES(vehicle, sp);
+                               vehicle.setParkingCertificate(new CertificateYES(vehicle, sp));
+                               return true;
                            }
                        }
                    }
@@ -80,13 +81,14 @@ public class Parking {
                            if (sp.isFree()) {
                                System.out.printf("Please park your Motorbike at floor %d, spot %d \n", k.getNumber(), sp.getNumber());
                                sp.occupySpot();
-                               return new CertificateYES(vehicle, sp);
+                               vehicle.setParkingCertificate(new CertificateYES(vehicle, sp));
+                               return true;
                            }
                        }
                    }
                }
            }
-       } else if (vehicle.getClass().getSimpleName().equals("Car")) {
+       } else if (vehicle.getClass().getSimpleName().equals("VehicleCar")) {
            if (this.getTotalFreeBigSpots() > 0) {
                System.out.println("There are free spots for your Car");
                for (Floor k : this.floors) {
@@ -95,13 +97,14 @@ public class Parking {
                            if (sp.isFree()) {
                                System.out.printf("Please park your Car at floor %d, spot %d \n", k.getNumber(), sp.getNumber());
                                sp.occupySpot();
-                               return new CertificateYES(vehicle, sp);
+                               vehicle.setParkingCertificate(new CertificateYES(vehicle, sp));
+                               return true;
                            }
                        }
                    }
                }
            }
-       } else if (vehicle.getClass().getSimpleName().equals("Bus")) {
+       } else if (vehicle.getClass().getSimpleName().equals("VehicleBus")) {
            if (this.getTotalFreeBigSpots() > 0) {
                System.out.println("There are free spots for your Bus");
                for (Floor k : this.floors) {
@@ -112,13 +115,15 @@ public class Parking {
                                System.out.printf("Please park your Bus at floor %d, across spots %d and %d \n", k.getNumber(), k.getBigSpots()[i].getNumber(), k.getBigSpots()[i].getNumber()+1);
                                k.getBigSpots()[i].occupySpot();
                                k.getBigSpots()[i+1].occupySpot();
-                               return new CertificateYES(vehicle, new Spot[] {k.getBigSpots()[i], k.getBigSpots()[i+1]});
+                               vehicle.setParkingCertificate(new CertificateYES(vehicle, new Spot[] {k.getBigSpots()[i], k.getBigSpots()[i+1]}));
+                               return true;
                            }
                        }
                    }
                }
            }
        }
-       return new CertificateNO(vehicle);
+       vehicle.setParkingCertificate(new CertificateNO(vehicle));
+       return false;
    }
 }
