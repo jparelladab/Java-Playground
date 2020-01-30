@@ -1,11 +1,8 @@
 package ParkingLot;
-import java.util.Calendar;
+import java.util.*;
 
-public class Certificate {
-    Calendar arrival;
-    Calendar departure;
+public abstract class Certificate {
+    Date arrival;
     Vehicle vehicle;
-    Spot spot;
-
-
+    boolean autorization;
 }

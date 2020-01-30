@@ -1,10 +1,9 @@
 package ParkingLot;
 
 public abstract class Vehicle {
-    private String licensePlate;
+    private String plateNumber;
     public String getPlateNumber() {
-        return this.licensePlate;
+        return this.plateNumber;
     };
-    abstract void move();
-    abstract void park();
+
 }

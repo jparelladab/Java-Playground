@@ -1,11 +1,10 @@
 package ParkingLot;
 
-import java.util.Arrays;
-
 public class Floor {
     private Spot[] smallSpots;
     private Spot[] bigSpots;
-
+    private int number;
+    public int getNumber(){return this.number;}
     public Spot[] getSmallSpots() {
         return this.smallSpots;
     }
@@ -20,16 +19,17 @@ public class Floor {
     }
 
 
-    public Floor(int smaSpots, int bgSpots){
+    public Floor(int num, int smaSpots, int bgSpots){
+        this.number = num;
         this.smallSpots = new Spot[smaSpots];
         this.bigSpots = new Spot[bgSpots];
         for (int i=0; i < smaSpots; i++) {
             //small spots are the first numbers, big ones the last ones
-            this.smallSpots[i] = new SmallSpot(this,i+1);
+            this.smallSpots[i] = new SpotSmall(this,i+1);
         }
         for (int j=0; j < bgSpots; j++) {
             //small spots are the first numbers, big ones the last ones
-            this.bigSpots[j] = new BigSpot(this, smaSpots+j+1);
+            this.bigSpots[j] = new SpotBig(this, smaSpots+j+1);
         }
     }
 

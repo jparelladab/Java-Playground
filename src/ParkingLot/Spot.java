@@ -1,12 +1,25 @@
 package ParkingLot;
 
 public abstract class Spot {
-    //Parking parking;
+    Parking parking;
     protected Floor floor;
     private float hourlyRate;
-    abstract float getHourlyRate();
     protected boolean free;
     protected int number;
+
+    public Spot(Floor floor, int number){
+        this.floor = floor;
+        this.number = number;
+        this.free = true;
+    }
+
+    public float getHourlyRate(){return this.hourlyRate;};
+    public void setHourlyRate(int num){ this.hourlyRate = num; }
+
+    public void occupySpot(){
+        this.free = false;
+    }
+    public void freeSpot(){ this.free = true; }
 
     public int getNumber() {
         return this.number;
@@ -15,11 +28,6 @@ public abstract class Spot {
     public boolean isFree() {
         return free;
     }
-
-    //Certificate park(Vehicle vehicle){return new Certificate();};
-    //void unpark(){};
-    int getAmount(Certificate certificate){return 20;};
-    void pay(){};
 
 
 }
