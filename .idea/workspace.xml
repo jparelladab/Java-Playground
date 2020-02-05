@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/MainClassObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Certificate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/CertificateNO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/CertificateNO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/CertificateYES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/CertificateYES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Parking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/VehicleBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/VehicleBus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot/VehicleMotorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot/VehicleMotorbike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My First Java Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPlayground.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
   <component name="RunManager" selected="Application.MainClass">
     <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactoryDesignPattern.FactoryMain" />
-      <module name="My First Java Project" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="FactoryDesignPattern.*" />
@@ -58,7 +54,7 @@
     </configuration>
     <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="firstPackage.FirstClass" />
-      <module name="My First Java Project" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="firstPackage.*" />
@@ -71,7 +67,7 @@
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ParkingLot.MainClass" />
-      <module name="My First Java Project" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ParkingLot.*" />
@@ -84,7 +80,7 @@
     </configuration>
     <configuration name="Parking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ParkingLot.Parking" />
-      <module name="My First Java Project" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ParkingLot.*" />
@@ -97,13 +93,60 @@
     </configuration>
     <configuration name="myMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StrategyDesignPattern.myMain" />
-      <module name="My First Java Project" />
+      <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StrategyDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="JavaPlayground" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="JavaPlayground" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,22 +195,26 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="370" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.797@0.23.1440.797" timestamp="1580408949198" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580413927911">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580464558807">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580413927911" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580413927909">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580464558807" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580464558806">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580413927909" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580413927908">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580464558806" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580464558806">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580413927908" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580413927910">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580464558806" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580464558806">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580413927910" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580464558806" />
+    <state x="332" y="122" key="NewModule_or_Project.wizard" timestamp="1580464551646">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="332" y="122" key="NewModule_or_Project.wizard/0.23.1440.797@0.23.1440.797" timestamp="1580464551646" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1578249180890">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
