@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/MainClassObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/StockGrabber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/StockObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My First Java Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPlayground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/MainClassObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/MainClassObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Subject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Application.MainClass">
+  <component name="RunManager" selected="Application.MainClassObserver">
     <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactoryDesignPattern.FactoryMain" />
       <module name="JavaPlayground" />
@@ -52,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="firstPackage.FirstClass" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParkingLot.MainClass" />
       <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="firstPackage.*" />
+          <option name="PATTERN" value="ParkingLot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ParkingLot.MainClass" />
+    <configuration name="MainClassObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObserverDesignPattern.MainClassObserver" />
       <module name="JavaPlayground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ParkingLot.*" />
+          <option name="PATTERN" value="ObserverDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClassObserver" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.myMain" />
         <item itemvalue="Application.Parking" />
         <item itemvalue="Application.FactoryMain" />
-        <item itemvalue="Application.FirstClass" />
       </list>
     </recent_temporary>
   </component>
@@ -187,30 +187,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="460" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1580388178972">
+    <state x="460" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1580916547906">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="460" y="129" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1580388178972" />
+    <state x="460" y="129" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1580916547906" />
     <state x="370" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580408949198">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="370" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.797@0.23.1440.797" timestamp="1580408949198" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580464558807">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1580919737168">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580464558807" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580464558806">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580919737168" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1580919737167">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580464558806" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580464558806">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580919737167" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1580919737167">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580464558806" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580464558806">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580919737167" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1580919737168">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580464558806" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580919737168" />
     <state x="332" y="122" key="NewModule_or_Project.wizard" timestamp="1580464551646">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
