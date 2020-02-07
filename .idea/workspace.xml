@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddb14f-542d-45be-9774-af2dac68ae03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/StockGrabber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/StockObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/GetTheStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firstPackage/PigLatin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/MainClassObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/MainClassObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObserverDesignPattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Subject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,10 +184,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="460" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1580916547906">
+    <state x="460" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1580922842470">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="460" y="129" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1580916547906" />
+    <state x="460" y="129" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1580922842470" />
     <state x="370" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580408949198">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
