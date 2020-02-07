@@ -23,7 +23,6 @@ public class GetTheStock implements Runnable {
             double randNum = (Math.random() * (.06)) - .03;
             DecimalFormat df = new DecimalFormat("#.##");
             this.price = Double.valueOf(df.format((this.price + randNum)));
-            b
         }
 
     }
