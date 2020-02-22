@@ -1,29 +1,69 @@
 package Sudoku;
 
-import java.util.Arrays;
+import java.util.Set;
+import java.util.HashSet;
 
 public class SudokuValidator {
     public static boolean check(int[][] sudoku) {
-        for(int a=0; a<sudoku.length-1; a++){
+        Set<Integer> arr = new HashSet<>();
+        Set<Integer> arrTwo = new HashSet<>();
+        Set<Integer> arrThree = new HashSet<>();
+        Set<Integer> arrFour = new HashSet<>();
+        Set<Integer> arrFive = new HashSet<>();
+        Set<Integer> arrSix = new HashSet<>();
+        Set<Integer> arrSeven = new HashSet<>();
+        Set<Integer> arrEight = new HashSet<>();
+        Set<Integer> arrNine = new HashSet<>();
+        for(int a=0; a<sudoku.length; a++){
+            arr.clear();
             for(int b=0; b<sudoku.length; b++){
-                if(sudoku[a][b] == sudoku[a][b+1]){
+                if(arr.add(sudoku[b][a]) == false | sudoku[b][a] <= 0 | sudoku[b][a] >9){
                     return false;
-
-                for(int c=0; c<sudoku.length; c++){
-                    for(int d=0; d<sudoku.length; d++){
-                        if(sudoku[a][c] == sudoku[b][d]){
-                            return false;
-                        }
-                    }
-
                 }
-
             }
         }
-        for(int l=0; l<sudoku.length; l++){
-            for(int n=0; n<sudoku.length-1; n++){
-                if(sudoku[l][n] == sudoku[l][n+1]){
+        for (int[] row : sudoku){
+            arr.clear();
+            for(int c=0; c<sudoku.length; c++){
+                if(arr.add(row[c]) == false){
                     return false;
+                }
+            }
+        }
+        arr.clear();
+        for (int d=0; d<sudoku.length; d++){
+            for (int e=0; e<sudoku.length; e++){
+                if(e < 3 && d<3){
+                    if(arr.add(sudoku[d][e]) == false){
+                        return false;};
+                }
+                else if(e>2 && e<6 && d<3){
+                    if(arrTwo.add(sudoku[d][e]) == false){
+                        return false;};
+                }
+                else if(e>5 && d<3){
+                    if(arrThree.add(sudoku[d][e]) == false){
+                        return false;};
+                }
+                else if(e<3 && d>2 && d<6){
+                    if(arrFour.add(sudoku[d][e]) == false){
+                        return false;};
+                }
+                else if(e>2 && e<6 && d>2 && d<6){
+                    if(arrFive.add(sudoku[d][e]) == false){
+                        return false;};
+                }
+                else if(e>5 && d>2 && d<6){
+                    if(arrSix.add(sudoku[d][e]) == false){return false;};
+                }
+                else if(e<3 && d>5){
+                    if(arrSeven.add(sudoku[d][e]) == false){return false;};
+                }
+                else if(e>2 && e<6 && d>5){
+                    if(arrEight.add(sudoku[d][e]) == false){return false;};
+                }
+                else if(e>5 && d>5){
+                    if(arrNine.add(sudoku[d][e]) == false){return false;};
                 }
             }
         }
@@ -31,7 +71,7 @@ public class SudokuValidator {
     }
 
     public static void main(String[] args) {
-        int[][] validSolution = new int[][] {
+        int[][] firstsolution = {
                 {5, 3, 4, 6, 7, 8, 9, 1, 2},
                 {6, 7, 2, 1, 9, 5, 3, 4, 8},
                 {1, 9, 8, 3, 4, 2, 5, 6, 7},
@@ -41,19 +81,35 @@ public class SudokuValidator {
                 {9, 6, 1, 5, 3, 7, 2, 8, 4},
                 {2, 8, 7, 4, 1, 9, 6, 3, 5},
                 {3, 4, 5, 2, 8, 6, 1, 7, 9}
- };
-        int[][] invalidSolution = new int[][]{
-                {5, 3, 4, 6, 7, 8, 9, 1, 2},
-                {6, 7, 2, 1, 9, 0, 3, 4, 8},
-                {1, 0, 0, 3, 4, 2, 5, 6, 0},
-                {8, 5, 9, 7, 6, 1, 0, 2, 0},
+        };
+
+
+        int[][] secondSolution = new int[][]{
+                {6, 2, 4, 6, 7, 8, 9, 1, 2},
+                {5, 8, 2, 1, 9, 5, 3, 4, 8},
+                {1, 9, 8, 3, 4, 2, 5, 6, 7},
+                {8, 5, 9, 7, 6, 1, 4, 2, 3},
                 {4, 2, 6, 8, 5, 3, 7, 9, 1},
                 {7, 1, 3, 9, 2, 4, 8, 5, 6},
-                {9, 0, 1, 5, 3, 7, 2, 1, 4},
+                {9, 6, 1, 5, 3, 7, 2, 8, 4},
                 {2, 8, 7, 4, 1, 9, 6, 3, 5},
-                {3, 0, 0, 4, 8, 1, 1, 7, 9}
+                {3, 4, 5, 2, 8, 6, 1, 7, 9}
         };
-        System.out.println(check(validSolution));
-        System.out.println(check(invalidSolution));
+
+        int[][] thirdSolution = new int[][]{
+                {5, 3, 4, 6, 7, 8, 9, 1, 2},
+                {6, 7, 2, 1, 9, 5, 3, 4, 8},
+                {1, 9, 8, 3, 4, 2, 5, 6, 7},
+                {8, 5, 9, 7, 6, 1, 4, 2, 3},
+                {4, 2, 6, 8, 0, 3, 7, 9, 1},
+                {7, 1, 3, 9, 2, 4, 8, 5, 6},
+                {9, 6, 1, 5, 3, 7, 2, 8, 4},
+                {2, 8, 7, 4, 1, 9, 6, 3, 5},
+                {3, 4, 5, 2, 8, 6, 1, 7, 9}
+        };
+
+        System.out.println(check(firstsolution));
+        System.out.println(check(secondSolution));
+        System.out.println(check(thirdSolution));
     }
 }
